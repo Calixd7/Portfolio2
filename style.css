@@ -44,3 +44,10 @@
     margin-left: 25px ;
 
 }
+/* Home Section Styling */
+.home {
+    display: flex;
+    background: url("images/banner.jpg") no-repeat center;
+    height: 100vh;
+    color:#fff;
+}
