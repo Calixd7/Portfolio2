@@ -20,7 +20,12 @@
     padding: 30px 0;
     /* background: crimson; */
     font-family: Ubuntu, sans-serif;
+    transition: all 0.3s ease;
 
+}
+.navbar.sticky{
+padding: 15px 0;
+background: crimson;
 }
 .navbar .max-width {
     display: flex;
@@ -32,12 +37,15 @@
     font-size: 35px;    
     font-weight: 600;
 }
+
+
 .navbar .menu li {
     list-style: none;
     display: inline-block;
 }
 .navbar .logo a span {
     color: crimson; 
+    transition:  all 0.3s ease;
 }
 
 .navbar .menu li a {
@@ -53,6 +61,10 @@
     color: crimson; 
 }
 
+.navbar.sticky .logo a span{
+    color: #fff;
+
+}
 /* Home Section Styling */
 
 .home {
